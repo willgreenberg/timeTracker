@@ -105,7 +105,7 @@ while True:
                 doneWork                 # Done work
             ]
 
-            with open('/Users/willgreenberg/Dropbox/Developer/Python/Projects/Work Time Tracker Data/timeLogRAW.csv', 'a') as outputFile:
+            with open('/Users/willgreenberg/Dropbox/Developer/Python/Projects/Work Time Tracker Data/timeLogRaw.csv', 'a') as outputFile:
                 outputWriter = csv.writer(outputFile)
                 outputWriter.writerow(sessionData)
             break
